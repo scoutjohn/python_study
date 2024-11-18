@@ -13,7 +13,7 @@ def sort(unsorted_list):
         print("Exit for loop")
         sorting_index -= 1
 
-    print(f"Sorted Array is {unsorted_list}")
+    print(f"Sorted Array is  {unsorted_list}")
 
 
 if __name__ == '__main__':
