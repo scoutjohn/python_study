@@ -2,11 +2,11 @@ def find_duplicates(array_):
     existing_numbers = [0] * 9
     for i in range(len(array_)):
         if existing_numbers[array_[i]] == 1:
-            print(f"True {i} : {existing_numbers}")
+            print(f"{array_[i]} already exists at index {i} in {array_}")
             return True
         else:
             existing_numbers[array_[i]] = 1
-            print(f"{i} : {existing_numbers}")
+            #print(f"{i} : {existing_numbers}")
 
     return False
 
