@@ -11,4 +11,4 @@ def print_file_in_subdirectories(path_name):
 
 
 if __name__ == '__main__':
-    print_file_in_subdirectories("/Users/scoutjohn13/Documents/Python/pycharm_projects/pythonProject/DSA")
+    print_file_in_subdirectories("/Users/scoutjohn13/Documents/Python/pycharm_projects/PythonProject/DSA")
