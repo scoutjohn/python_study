@@ -40,7 +40,7 @@ def append_file(filename):
     """
     try:
         with open(filename, 'a') as f:
-            f.write("\n new data input")
+            f.write("\nnew data input")
             f.close()
     except FileNotFoundError:
         print("File not found", filename)
