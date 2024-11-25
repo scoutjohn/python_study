@@ -60,4 +60,20 @@ if __name__ == '__main__':
     print(e)
     print()
 
+    print("diagonal matrix")
+    e=np.diag([1,2,3,4])
+    print(e)
+    print(np.diag(e))
+    print()
+
+    print("random matrix of size, uniform random variable")
+    e=np.random.rand(4)
+    print(e)
+    print()
+
+    print("random matrix of size, standard random variable")
+    e=np.random.rand(4)
+    print(e)
+    print()
+
 
