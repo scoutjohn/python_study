@@ -1,4 +1,4 @@
-from Basics.ObjectOperation.Value import Value
+from Basics.object_operations.Value import Value
 
 if __name__ == '__main__':
     a = Value(3)
