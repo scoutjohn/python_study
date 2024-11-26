@@ -1,10 +1,10 @@
-def print_numbers(array_):
+def print_numbers(_array):
 
-        for val in array_:
-            if isinstance(val,list):
-                print_numbers(val)
-            else:
-                print(val)
+    for val in _array:
+        if isinstance(val,list):
+            print_numbers(val)
+        else:
+            print(val)
 
 
 if __name__ == '__main__':
