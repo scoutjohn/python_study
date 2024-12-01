@@ -72,7 +72,7 @@ if __name__ == '__main__':
     print()
 
     print("random matrix of size, standard random variable")
-    e=np.random.rand(4)
+    e=np.random.randn(4)
     print(e)
     print()
 
